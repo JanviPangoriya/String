@@ -7,6 +7,8 @@ public class Question1 {
         Scanner obj = new Scanner(System.in);
         String a = obj.nextLine().trim();
         System.out.println("index:\t");
+        Output obj1 = new Output(a);
+
 
     }
 }
