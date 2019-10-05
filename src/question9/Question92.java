@@ -14,4 +14,18 @@ public class Question92 {
     public void setString(String string) {
         this.string = string;
     }
+
+    public int absolute_weight() {
+        int j = 0;
+        int k = 0;
+        for (int i = 0; i < string.length(); i++) {
+            if (Character.isUpperCase(string.charAt(i))) {
+                k = k + (int) string.charAt(i);
+            }
+            if (Character.isLowerCase(string.charAt(i))) {
+                j = j + string.charAt(i);
+            }
+        }
+        return k - j;
+    }
 }
