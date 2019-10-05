@@ -1,9 +1,9 @@
-package question5;
+package question6;
 
-public class Question51 {
+public class Question61 {
     protected String sub;
 
-    Question51(String sub) {
+    Question61(String sub) {
         this.sub = sub;
     }
 
@@ -13,5 +13,9 @@ public class Question51 {
 
     public void setSub(String sub) {
         this.sub = sub;
+    }
+
+    public String output() {
+        return sub.toUpperCase();
     }
 }
