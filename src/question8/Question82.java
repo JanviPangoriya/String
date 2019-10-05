@@ -6,4 +6,12 @@ public class Question82 {
     Question82(String string) {
         this.string = string;
     }
+
+    public String getString() {
+        return string;
+    }
+
+    public void setString(String string) {
+        this.string = string;
+    }
 }
