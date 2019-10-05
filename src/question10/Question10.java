@@ -8,5 +8,6 @@ public class Question10 {
         String string = obj.next().trim();
         char c = obj.next().trim().charAt(0);
         Question101 obj1 = new Question101(string, c);
+        System.out.println(obj1.index());
     }
 }
