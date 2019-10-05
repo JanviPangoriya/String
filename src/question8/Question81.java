@@ -6,6 +6,7 @@ public class Question81 {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         String string = obj.next().trim();
-        Question82 obj1 = new Question82(string)
+        Question82 obj1 = new Question82(string);
+        System.out.println(obj.uppercaseweigth());
     }
 }
