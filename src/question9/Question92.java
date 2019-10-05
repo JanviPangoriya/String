@@ -26,6 +26,9 @@ public class Question92 {
                 j = j + string.charAt(i);
             }
         }
-        return k - j;
+        if ((k - j) >= 0)
+            return k - j;
+        else
+            return (j - k);
     }
 }
