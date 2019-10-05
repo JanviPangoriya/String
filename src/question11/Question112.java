@@ -17,6 +17,15 @@ public class Question112 {
         this.c = c;
     }
 
+    public int output() {
+        for (int i = 0; i < string.length(); i++) {
+            if (string.charAt(i) == c) {
+                return i;
+            }
+
+        }
+    }
+
     public String getString() {
         return string;
     }
