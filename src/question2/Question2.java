@@ -7,7 +7,7 @@ public class Question2 {
         Scanner obj = new Scanner(System.in);
         String as = obj.nextLine().trim();
         int index = obj.nextInt();
-        Question 21 obj1 = new Question21(as, index);
+        Question21 obj1 = new Question21(as, index);
         System.out.println(obj1.output());
     }
 }
