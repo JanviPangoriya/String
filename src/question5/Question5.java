@@ -9,5 +9,6 @@ public class Question5 {
         String substring = obj.nextLine().trim();
         String replacestring = obj.nextLine().trim();
         Question51 obj1 = new Question51(string, substring, replacestring);
+        System.out.println(obj1.inputstring());
     }
 }
