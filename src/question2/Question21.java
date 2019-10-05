@@ -24,4 +24,8 @@ public class Question21 {
     public void setN(int n) {
         this.n = n;
     }
+
+    public String output() {
+        return name.substring(n);
+    }
 }
