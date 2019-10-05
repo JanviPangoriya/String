@@ -34,4 +34,10 @@ public class Question51 {
     public void setSubstring(String substring) {
         this.substring = substring;
     }
+
+    public String inputstring() {
+        string = string.replaceAll(substring, replacestring);
+        return string;
+    }
+
 }
