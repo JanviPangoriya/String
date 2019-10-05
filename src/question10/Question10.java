@@ -6,5 +6,6 @@ public class Question10 {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         String string = obj.next().trim();
+        char c = obj.next().trim().charAt(0);
     }
 }
