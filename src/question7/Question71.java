@@ -7,6 +7,6 @@ public class Question71 {
         Scanner obj = new Scanner(System.in);
         String input = obj.next().trim();
         Question72 obj1 = new Question72(input);
-        System.out.println(obj.output());
+        System.out.println(obj1.toatalweigth());
     }
 }

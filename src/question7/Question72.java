@@ -14,4 +14,12 @@ public class Question72 {
     public void setInput(String input) {
         this.input = input;
     }
+
+    public int toatalweigth() {
+        int s = 0;
+        for (int i = 0; i < input.length(); i++) {
+            s = s + (int) (input.charAt(i));
+        }
+        return s;
+    }
 }
