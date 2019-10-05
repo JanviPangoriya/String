@@ -7,5 +7,6 @@ public class Question10 {
         Scanner obj = new Scanner(System.in);
         String string = obj.next().trim();
         char c = obj.next().trim().charAt(0);
+        Question101 obj1 = new Question101(string, c);
     }
 }
