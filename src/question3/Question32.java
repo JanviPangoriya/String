@@ -19,7 +19,7 @@ public class Question32 {
     public String output() {
         for (int i = 0; i < vowel.length(); i++) {
             for (int j = 0; j < input.length(); j++) {
-                if (vowel.charAt(i) == input.length()) {
+                if (vowel.charAt(i) == input.charAt(j)) {
                     input = input.replace(input.charAt(j), '*');
                 }
 
