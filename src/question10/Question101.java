@@ -20,7 +20,9 @@ public class Question101 {
         this.c = c;
     }
 
-    public int index
+    public int index() {
+        return string.indexOf(c);
+    }
 
     Question101(String string, char c) {
         this.string = string;
