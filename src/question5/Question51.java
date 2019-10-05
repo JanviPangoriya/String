@@ -6,4 +6,12 @@ public class Question51 {
     Question51(String sub) {
         this.sub = sub;
     }
+
+    public String getSub() {
+        return sub;
+    }
+
+    public void setSub(String sub) {
+        this.sub = sub;
+    }
 }
