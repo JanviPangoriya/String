@@ -19,4 +19,12 @@ public class Question101 {
     public void setC(char c) {
         this.c = c;
     }
+
+    public int index
+
+    Question101(String string, char c) {
+        this.string = string;
+        this.c = c;
+    }
+
 }
